@@ -3,25 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Profile</title>
+    <title>My Dynamic To-Do List</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="profile-card">
-        <img src="indus.jpg" alt="Profile Picture" class=" profile-img" width="250" length="300"> 
-        <h2>GRETSIN L. INDUS</h2>
-        <p>BSIT | USTP Oroquieta</p>
-        <p>"Padayon"</p>
-
-        <div class="social-icons">
-            <a href="https://www.instagram.com/gretsinindus?igsh=MTV3b3FhZ2p3NWYxdA==">
-            <img src="Instagram.jpg" alt="Instagram" width="200" lenght="250"></a>
-             <a href="https://t.me/jaiindus"><img src="Telegram-Logo.png" alt="Telegram" width="200" lenght="250"></a>
-              <a href="https://www.facebook.com/gretsin.indus">
-            <img src="Facebook (2).jpg" alt="Facebook" width="200" lenght="250"></a>
+    <div class="container">
+        <h1>My To-Do List</h1>
+        
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <button id="addBtn">Add</button>
         </div>
-
-        <a href="about.html" class="btn">About Me</a>
+        <ul id="taskList"></ul>
     </div>
+
+    <script src="script.js"></script>
+    
 </body>
 </html>
